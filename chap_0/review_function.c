@@ -9,7 +9,7 @@
     author: ranjan-stha
 */
 
-void generate_fibonacci_series(n_terms, f_term, s_term) {
+void generate_fibonacci_series(int n_terms, int f_term, int s_term) {
     int third_term;
     for(int i=0; i<n_terms; i++){
         printf("%d\t", f_term);
