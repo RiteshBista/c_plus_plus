@@ -7,17 +7,17 @@ using namespace std;
  */
  
 int sum(int num1, int num2) {
-    cout << "Integer type sum called. Two argument passed." << endl;
+    cout << "Integer type sum function called having two arguments." << endl;
     return num1 + num2;
 }
 
 float sum(float num1, float num2){
-    cout << "Float type sum called. Two argument passed." << endl;
+    cout << "Float type sum function called having two arguments." << endl;
     return num1 + num2;
 }
 
 int sum(int num1, int num2, int num3){
-    cout << "Integer type sum called. Three argument passed." << endl;
+    cout << "Integer type sum function called having three arguments." << endl;
     return num1 + num2 + num3;
 }
 
