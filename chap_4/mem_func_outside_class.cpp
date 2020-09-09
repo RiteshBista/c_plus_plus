@@ -31,7 +31,7 @@ void Customer::get_info(){
     cin >> id;
     cin.get();
     cout << "Enter your name: ";
-    cin.get(name,128); // cin >> name; 
+    cin.getline(name,128); // cin >> name; 
     cout << "Enter your expenditure: ";
     cin >> expenditure;
     cout << "Enter the initial bonus point: ";
