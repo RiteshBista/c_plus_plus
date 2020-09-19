@@ -34,7 +34,7 @@ Item::Item(int val){
 void Item::showcount(){
     cout << count << endl;
     //cout << id << endl;  // this line produces error
-    //id++ // produces error.
+    //id++; // produces error.
 }
 
 int main() {
