@@ -13,8 +13,8 @@ class Employee {
         float salary;
     
     public:
-        Employee(int id, float sal){
-            this->id = id;
+        Employee(int identifier, float sal){
+            this->id = identifier;
             this->salary = sal;
         }
         
