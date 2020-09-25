@@ -6,7 +6,7 @@ using namespace std;
  * Binary Operator Overloading (*)
  * 
  * This program uses binary operator overlaoding (*) to multiply two complex
- * numbers.
+ * numbers using friend function.
  * 
  * author: ranjan-stha
  */
