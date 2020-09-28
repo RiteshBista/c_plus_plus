@@ -42,11 +42,14 @@ class Add{
 
 int main(){
     Add first(5), second(6), sum1, sum2;
-    sum1 = first + second;
+    sum1 = first + second;  // equivalent to sum1 = first.operator+(second)
     
     sum1.display();
     
-    sum2 =  first + 3;
+    sum2 =  first + 3; // equivalent to sum2 = first.operator+(3) in case of member function
+                        // equivalent to sum2 = operator+(first, 3) in case of friend function or non-member function
+                        // also try sum2 = 3 + first and see why it fails in case member function and works in case of non-
+                        // member function (or friend function)
     
     sum2.display();
     
