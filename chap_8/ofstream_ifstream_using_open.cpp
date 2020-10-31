@@ -16,7 +16,7 @@ int main(){
     
     // Storing in the file    
     ofstream outf;
-    outf.open("country.dat");
+    outf.open("country.dat");  // try append mode(ios::app)
     outf << "USA\n";
     outf << "Germany\n";
     outf << "France\n";
@@ -29,7 +29,7 @@ int main(){
     ifstream inf;
     inf.open("country.dat");
     
-    while(inf){
+    while(inf){  // try !inf.eof()
         inf.getline(line, N);
         cout << line << endl;
     }
