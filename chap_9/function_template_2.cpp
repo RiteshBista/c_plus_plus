@@ -24,7 +24,7 @@ int main(){
     cout << "First num: " << f << endl;
     cout << "Second num: " << s << endl;
     
-    swap(f, s);
+    swap(&f, &s);
     cout << endl;
     
     cout << "After swapping" << endl;
