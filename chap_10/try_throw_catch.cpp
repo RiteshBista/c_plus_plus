@@ -1,6 +1,12 @@
 #include<iostream>
 using namespace std;
 
+/**
+ * Try Throw Catch: Exception Handling basic form
+ * 
+ * author: ranjan-stha
+ */
+
 int main(){
     float dividend, divisor;
     cout << "Enter first value ";
