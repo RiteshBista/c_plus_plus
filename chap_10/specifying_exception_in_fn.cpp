@@ -7,7 +7,7 @@ using namespace std;
  * author: ranjan-stha
  */
 
-void test_fn(int x) throw(int, char, double){
+void test_fn(int x) throw(int, char, double){ // empty throw list and check
     if (x==0){
         throw x;
     }else if(x==1){
